@@ -5,43 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db9ef54-4073-4f27-8c3a-53be479eddd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/controller/EmployeeControllerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/repository/EmployeeRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/service/EmployeeServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/integration/AbstractContainerBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/integration/EmployeeControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/integration/EmployeeControllerITests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/test/java/com/eemrezcn/education/repository/EmployeeRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/MsscBreweryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/controller/BeerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/controller/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/dto/BeerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/dto/CustomerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/model/v2/BeerControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/model/v2/BeerDTOV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/model/v2/BeerServiceV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/model/v2/BeerServiceV2Impl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/model/v2/BeerStyleEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/services/BeerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/services/BeerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/services/CustomerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/java/com/eemrezcn/education/services/CustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSSCBrewery/MSSCBrewery/src/test/java/com/eemrezcn/education/MsscBreweryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +33,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZFX6L24oNzc3vDHRjHs227p67Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,6 +45,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SpringBootTestingApplication.executor": "Run",
+    "JUnit.EmployeeControllerIT.executor": "Run",
+    "JUnit.EmployeeControllerIT.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeControllerITests.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturn404.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor": "Run",
     "JUnit.EmployeeControllerTests.executor": "Run",
     "JUnit.EmployeeControllerTests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor": "Run",
     "JUnit.EmployeeControllerTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor": "Run",
@@ -80,6 +62,7 @@
     "JUnit.EmployeeControllerTests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor": "Run",
     "JUnit.EmployeeControllerTests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor": "Run",
     "JUnit.EmployeeControllerTests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryIT.executor": "Run",
     "JUnit.EmployeeRepositoryTests.executor": "Run",
     "JUnit.EmployeeRepositoryTests.givenEmployeeEmail_whenFindByEmail_thenReturnEmployeeObject.executor": "Run",
     "JUnit.EmployeeRepositoryTests.givenEmployeeList_whenFindAll_thenEmployeesList.executor": "Run",
@@ -110,101 +93,103 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.eemrezcn.education.service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eemrezcn.education.integration" />
+      <recent name="com.eemrezcn.education.repository" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeControllerTests">
-    <configuration name="EmployeeControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeRepositoryIT">
+    <configuration name="EmployeeControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBootTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.controller.*" />
+          <option name="PATTERN" value="com.eemrezcn.education.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.controller.EmployeeControllerTests" />
+      <option name="PACKAGE_NAME" value="com.eemrezcn.education.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.integration.EmployeeControllerIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeControllerTests.givenEmployeeId_whenDeleteEmployee_thenReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeControllerIT.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBootTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.controller.*" />
+          <option name="PATTERN" value="com.eemrezcn.education.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.controller.EmployeeControllerTests" />
+      <option name="PACKAGE_NAME" value="com.eemrezcn.education.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.integration.EmployeeControllerIT" />
+      <option name="METHOD_NAME" value="givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeControllerITests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eemrezcn.education.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eemrezcn.education.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.integration.EmployeeControllerITests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeControllerITests.givenEmployeeId_whenDeleteEmployee_thenReturn200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eemrezcn.education.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eemrezcn.education.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.integration.EmployeeControllerITests" />
       <option name="METHOD_NAME" value="givenEmployeeId_whenDeleteEmployee_thenReturn200" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeControllerTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBootTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.controller.*" />
+          <option name="PATTERN" value="com.eemrezcn.education.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.controller.EmployeeControllerTests" />
-      <option name="METHOD_NAME" value="givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeControllerTests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.controller.EmployeeControllerTests" />
-      <option name="METHOD_NAME" value="givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeControllerTests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.controller.EmployeeControllerTests" />
-      <option name="METHOD_NAME" value="givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.eemrezcn.education.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.repository.EmployeeRepositoryIT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeControllerTests" />
-        <item itemvalue="JUnit.EmployeeControllerTests.givenEmployeeId_whenDeleteEmployee_thenReturn200" />
-        <item itemvalue="JUnit.EmployeeControllerTests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject" />
-        <item itemvalue="JUnit.EmployeeControllerTests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty" />
-        <item itemvalue="JUnit.EmployeeControllerTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject" />
+        <item itemvalue="JUnit.EmployeeRepositoryIT" />
+        <item itemvalue="JUnit.EmployeeControllerIT" />
+        <item itemvalue="JUnit.EmployeeControllerIT.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee" />
+        <item itemvalue="JUnit.EmployeeControllerITests" />
+        <item itemvalue="JUnit.EmployeeControllerITests.givenEmployeeId_whenDeleteEmployee_thenReturn200" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-301ddabe" />
       </set>
     </attachedChunks>
   </component>
