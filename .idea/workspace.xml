@@ -5,22 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db9ef54-4073-4f27-8c3a-53be479eddd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/SpringBootTestContainersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/SpringBootTestContainersApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/AbstractContainerBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/repository/StudentRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/SpringBootWebFluxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerIntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/SpringBootWebFluxApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.3.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/SpringBootTestContainersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/SpringBootTestContainersApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -52,74 +73,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.SpringBootTestContainerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringBootTestingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringBootWebFluxTutorialApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerIT.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerIT.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturn404.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeControllerTests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryIT.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenEmployeeEmail_whenFindByEmail_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenEmployeeList_whenFindAll_thenEmployeesList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenFindById_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenSave_thenReturnSavedEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenUpdateEmployee_thenReturnsUpdatedEmployee.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByJPQLNamedParams_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByJPQL_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByNativeSQLNamedParams_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByNativeSQL_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenEmployeeId_whenDeleteEmployee_thenNothing.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenEmployeeObject_whenSaveEmployee_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenEmployeeObject_whenUpdateEmployee_thenReturnUpdatedEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenEmployeesList_whenGetAllEmployees_thenReturnEmployeesList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceTests.givenExistingEmail_whenSaveEmployee_thenThrowsException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmployeeServiceeTests.givenEmployeeObject_whenSaveEmployee_thenReturnEmployeeObject.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringBootTestContainerApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringBootTestContainerApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/eozcan1.ISKI/Desktop/SpringBootEducation&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3575419&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.SpringBootTestContainerApplication.executor": "Run",
+    "Application.SpringBootTestingApplication.executor": "Run",
+    "Application.SpringBootWebFluxApplication.executor": "Run",
+    "Application.SpringBootWebFluxTutorialApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.EmployeeControllerIT.executor": "Run",
+    "JUnit.EmployeeControllerIT.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeControllerITests.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturn404.executor": "Run",
+    "JUnit.EmployeeControllerITests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor": "Run",
+    "JUnit.EmployeeControllerTests.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenEmployeeId_whenDeleteEmployee_thenReturn200.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenEmployeeObject_whenCreateEmployee_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenInvalidEmployeeId_whenGetEmployeeById_thenReturnEmpty.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenListOfEmployees_whenGetAllEmployees_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeControllerTests.givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryIT.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeEmail_whenFindByEmail_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeList_whenFindAll_thenEmployeesList.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenFindById_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenSave_thenReturnSavedEmployee.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenEmployeeObject_whenUpdateEmployee_thenReturnsUpdatedEmployee.executor": "Debug",
+    "JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByJPQLNamedParams_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByJPQL_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByNativeSQLNamedParams_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeRepositoryTests.givenFirstNameAndLastName_whenFindByNativeSQL_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeServiceTests.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeId_whenDeleteEmployee_thenNothing.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeId_whenGetEmployeeById_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeObject_whenSaveEmployee_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeeObject_whenUpdateEmployee_thenReturnUpdatedEmployee.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenEmployeesList_whenGetAllEmployees_thenReturnEmployeesList.executor": "Run",
+    "JUnit.EmployeeServiceTests.givenExistingEmail_whenSaveEmployee_thenThrowsException.executor": "Run",
+    "JUnit.EmployeeServiceeTests.givenEmployeeObject_whenSaveEmployee_thenReturnEmployeeObject.executor": "Run",
+    "JUnit.SpringBootTestContainerApplicationTests.executor": "Run",
+    "JUnit.SpringBootTestContainerApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents.executor": "Run",
+    "JUnit.SpringBootTestContainersApplicationTests.executor": "Run",
+    "JUnit.SpringBootTestContainersApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents.executor": "Run",
+    "JUnit.StudentRepositoryTest.executor": "Run",
+    "JUnit.StudentRepositoryTest.givenStudentId_whenfindById_thenReturnSavedStudent.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/eozcan1.ISKI/Desktop/SpringBootEducation",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3575419",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.eemrezcn.education.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.eemrezcn.example.repository" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eemrezcn.education.integration" />
       <recent name="com.eemrezcn.education.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringBootWebFluxTutorialApplication">
-    <configuration name="SpringBootTestContainerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootTestContainerApplication" />
-      <module name="SpringBootTestContainer" />
+  <component name="RunManager" selected="Application.SpringBootWebFluxApplication">
+    <configuration name="SpringBootWebFluxApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootWebFluxApplication" />
+      <module name="SpringBootWebFlux" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eemrezcn.example.*" />
@@ -130,36 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootWebFluxTutorialApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootWebFluxTutorial.SpringBootWebFluxTutorialApplication" />
-      <module name="SpringBootWebFluxTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eemrezcn.example.SpringBootWebFluxTutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eemrezcn.education.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eemrezcn.education.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.education.repository.EmployeeRepositoryIT" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootTestContainerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootTestContainer" />
+    <configuration name="SpringBootTestContainersApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTestContainers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eemrezcn.example.*" />
@@ -167,14 +178,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.eemrezcn.example" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootTestContainerApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootTestContainersApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootTestContainerApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootTestContainer" />
+    <configuration name="SpringBootTestContainersApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTestContainers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eemrezcn.example.*" />
@@ -182,8 +193,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.eemrezcn.example" />
-      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootTestContainerApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.SpringBootTestContainersApplicationTests" />
       <option name="METHOD_NAME" value="givenStudents_whenGetAllStudents_thenListOfStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTestContainers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eemrezcn.example.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eemrezcn.example.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.repository.StudentRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.givenStudentId_whenfindById_thenReturnSavedStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBootTestContainers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eemrezcn.example.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eemrezcn.example.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.eemrezcn.example.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="givenStudentId_whenfindById_thenReturnSavedStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringBootWebFluxTutorialApplication" />
-        <item itemvalue="JUnit.SpringBootTestContainerApplicationTests" />
-        <item itemvalue="Application.SpringBootTestContainerApplication" />
-        <item itemvalue="JUnit.SpringBootTestContainerApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents" />
-        <item itemvalue="JUnit.EmployeeRepositoryIT" />
+        <item itemvalue="Application.SpringBootWebFluxApplication" />
+        <item itemvalue="JUnit.StudentRepositoryTest.givenStudentId_whenfindById_thenReturnSavedStudent" />
+        <item itemvalue="JUnit.StudentRepositoryTest" />
+        <item itemvalue="JUnit.SpringBootTestContainersApplicationTests" />
+        <item itemvalue="JUnit.SpringBootTestContainersApplicationTests.givenStudents_whenGetAllStudents_thenListOfStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +370,38 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/SpringBootTestContainers/src/test/java/com/eemrezcn/example/SpringBootTestContainersApplicationTests.java</url>
+          <line>34</line>
+          <properties class="com.eemrezcn.example.SpringBootTestContainersApplicationTests" method="givenStudents_whenGetAllStudents_thenListOfStudents">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerTests.java</url>
+          <line>33</line>
+          <properties class="com.eemrezcn.example.EmployeeControllerTests" method="givenEmployeeObject_whenSaveEmployee_thenReturnSavedEmployee">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerTests.java</url>
+          <line>88</line>
+          <properties class="com.eemrezcn.example.EmployeeControllerTests" method="givenListOfEmployees_whenGetAllEmployees_returnListOfEmployees">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerIntegrationTests.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

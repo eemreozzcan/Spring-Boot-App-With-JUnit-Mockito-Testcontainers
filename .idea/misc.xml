@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SpringBootTestContainer/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootWebFluxTutorial/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootWebFlux/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

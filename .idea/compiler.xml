@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBootTesting" />
+        <module name="SpringBootWebFlux" />
         <module name="SpringBootTestContainers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBootTestContainer" target="17" />
       <module name="SpringBootTestContainersDemo" target="17" />
-      <module name="SpringBootWebFlux" target="17" />
       <module name="SpringBootWebFluxTutorial" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -23,6 +23,7 @@
       <module name="SpringBootTestContainer" options="-parameters" />
       <module name="SpringBootTestContainers" options="-parameters" />
       <module name="SpringBootTesting" options="-parameters" />
+      <module name="SpringBootWebFlux" options="-parameters" />
       <module name="SpringBootWebFluxTutorial" options="-parameters" />
     </option>
   </component>
