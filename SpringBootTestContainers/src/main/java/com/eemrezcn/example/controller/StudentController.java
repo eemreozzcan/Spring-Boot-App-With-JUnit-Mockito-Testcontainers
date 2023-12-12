@@ -25,6 +25,7 @@ public class StudentController
 
     /*The Purpose Of The Method Is To Save The Incoming Student Information To The Database Upon Receiving An Http Post
     Request And Return The Created Student Object As An Http Response*/
+    //http://localhost:8080/api/students
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Student createStudent(Student student)
@@ -34,6 +35,7 @@ public class StudentController
 
     /*The General Purpose Of This Method Is To Fetch All Student Records From The Database Upon Receiving An Http
     Get Request And Return These Records As A List In The Http Response.*/
+    //http://localhost:8080/api/students
     @GetMapping
     public List<Student> getAllStudents()
     {

@@ -19,6 +19,7 @@ public class EmployeeController {
 
     /*This Method, Annotated With @PostMapping And @ResponseStatus(Httpstatus.created), Takes An Employee Object Received In An Http Post Request Using @RequestBody.
     It Performs An Operation Using This Information And Returns The Created Employee Object As An Http Response. */
+    //http://localhost:8080/api/employees
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Employee createEmployee(@RequestBody Employee employee) {
@@ -27,6 +28,7 @@ public class EmployeeController {
 
     /*This Method, Annotated With @GetMapping, Performs An Operation To List All Employee Objects When An Http Get Request Is Received And Returns
     A List Containing These Objects As The Result.*/
+    //http://localhost:8080/api/employees
     @GetMapping
     public List<Employee> getAllEmployees() {
         return employeeService.getAllEmployees();
@@ -35,6 +37,7 @@ public class EmployeeController {
     /*This Method, Annotated With @GetMapping("{id}"), Performs An Operation To Retrieve A Specific Employee By Its Identifier When An Http Get Request Is Received.
      If The Operation Is Successful, It Returns A ResponsEntity Containing The Found Employee Object; Otherwise,
      It Returns A ResponsEntity With An Error Status Indicating "Not Found."*/
+    //http://localhost:8080/api/employees/1
     @GetMapping("{id}")
     public ResponseEntity<Employee> getEmployeeById(@PathVariable("id") long employeeId) {
         return employeeService.getEmployeeById(employeeId)
@@ -46,6 +49,7 @@ public class EmployeeController {
     In The Url. This Annotation Maps An Http Put Request To The Specified Url. The Corresponding Method Updates The Information Of The Employee With The Specified Id
     And Returns The Updated Employee As A Responseentity Object.If An Employee With The Specified Id Cannot Be Found, An Http Status Code Indicating "Not Found"
     Is Returned*/
+    //http://localhost:8080/api/employees/1
     @PutMapping("{id}")
     public ResponseEntity<Employee> updateEmployee(@PathVariable("id") long employeeId,
                                                    @RequestBody Employee employee) {
@@ -65,6 +69,7 @@ public class EmployeeController {
 
     /*This Method Accepts An Http Delete Request To Delete A Specific Employee And Calls The Corresponding Service Method.
     It Then Returns A Responseentity Object Based On Whether The Deletion Was Successful. */
+    //http://localhost:8080/api/employees/1
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteEmployee(@PathVariable("id") long employeeId) {
 

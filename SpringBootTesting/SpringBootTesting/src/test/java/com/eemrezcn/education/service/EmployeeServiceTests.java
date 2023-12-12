@@ -24,11 +24,19 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-@ExtendWith(MockitoExtension.class)
+@ExtendWith(MockitoExtension.class) //The statement @ExtendWith(MockitoExtension.class) is a JUnit extension that enables the Mockito extension in JUnit
+                                    // tests where the Mockito library is used.
 public class EmployeeServiceTests {
+
+
+    /*The @Mock annotation designates a mock object created using the Mockito library.
+    In this example, it defines a mock object of type EmployeeRepository using Mockito.*/
     @Mock
     private EmployeeRepository employeeRepository;
 
+    /*The @InjectMocks annotation is a marker in Mockito that injects mock objects created using the Mockito library into the real objects (non-mocks)
+    within the tested class. In this example, it injects the EmployeeRepository mock object, specified with @Mock within the class, into the real object
+    employeeService of the EmployeeServiceImpl class.*/
     @InjectMocks
     private EmployeeServiceImpl employeeService;
 

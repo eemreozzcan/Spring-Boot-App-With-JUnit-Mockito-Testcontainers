@@ -58,30 +58,40 @@
             <scope>test</scope>
         </dependency>
 
+        <!--This Maven Dependency Definition Adds The "Junit-jupiter-params" Library From The "Org.junit.jupiter" Group To Your Project,
+        Enabling The Parameterized Testing Features Of Junit 5 For Use During The Testing Phase Of Your Project.-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <scope>test</scope>
         </dependency>
 
+        <!--This Maven Dependency Definition Adds The "Junit-jupiter-engine" Library From The "Org.junit.jupiter" Group To Your Project,
+        Incorporating The Fundamental Engine Of The Junit 5 Testing Framework For Use During The Testing Phase Of Your Project.-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <scope>test</scope>
         </dependency>
 
+        <!--This Maven Dependency Definition Adds The "Testcontainers" Library From The "Org.testcontainers" Group To Your Project For Use During The Testing Phase.
+         Testcontainers Is A Library Primarily Used For Managing Tests On Docker Containers.-->
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>testcontainers</artifactId>
             <version>1.18.3</version>
         </dependency>
 
+        <!--This Maven Dependency Definition Adds The "Junit-jupiter" Library From The "Org.testcontainers" Group To Your Project For Use During The Testing Phase.
+        The "Junit-jupiter" Library Is Used To Integrate Testcontainers With The Junit 5 Testing Framework.-->
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>1.18.3</version>
         </dependency>
 
+        <!--This Maven Dependency Definition Adds The "Junit-jupiter" Library From The "Org.testcontainers" Group To Your Project For Use During The Testing Phase.
+        The "Junit-jupiter" Library Is Used To Integrate Testcontainers With The Junit 5 Testing Framework-->
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>mysql</artifactId>
