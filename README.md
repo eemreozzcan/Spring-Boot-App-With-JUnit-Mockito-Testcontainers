@@ -1,6 +1,3 @@
-# Spring-Boot-App-With-JUnit-Mockito-Testcontainers
-
-
 This project is organized according to the Spring Boot 3.1.6 version and has achieved the following accomplishments
 
 -Behavior-Driven Development (BDD) unit and integration tests were written using the Spring Boot Starter Test dependency.
