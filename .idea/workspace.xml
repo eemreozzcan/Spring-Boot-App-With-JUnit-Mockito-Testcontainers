@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db9ef54-4073-4f27-8c3a-53be479eddd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/dto/EmployeeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/java/com/eemrezcn/example/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerIntegrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerIntegrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWebFlux/src/test/java/com/eemrezcn/example/EmployeeControllerTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2db9ef54-4073-4f27-8c3a-53be479eddd3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
