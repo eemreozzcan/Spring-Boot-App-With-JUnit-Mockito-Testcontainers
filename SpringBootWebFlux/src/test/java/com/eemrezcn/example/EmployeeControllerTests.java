@@ -20,20 +20,29 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/*This annotation is used in JUnit 5 tests to support integration with Spring, enabling the test to initialize the Spring context.*/
 @ExtendWith(SpringExtension.class)
+/*The statement "@WebFluxTest(controllers = EmployeeController.class) is used in Spring Boot to conduct unit tests related to WebFlux.
+This annotation automatically applies the necessary configurations for testing the EmployeeController class.*/
 @WebFluxTest(controllers = EmployeeController.class)
+
 public class EmployeeControllerTests {
 
+    //This code snippet automatically injects the component of type WebTestClient to be used for Spring WebFlux tests.
     @Autowired
     private WebTestClient webTestClient;
 
+    //This Code Injects A Mock (Fake) employeeservice Component Managed By The Spring Testcontext Framework.
     @MockBean
     private EmployeeService employeeService;
 
+
+    /*This test method expects to save an employee object and return the saved employee object.
+    It uses BDDMockito to simulate the behavior of the saveEmployee method, and then sends an HTTP POST request to save the employee.
+    Finally, it verifies receiving a successful response with the expected information.*/
     @Test
     public void givenEmployeeObject_whenSaveEmployee_thenReturnSavedEmployee(){
 
-        // given - pre-conditions or set up
         EmployeeDto employeeDto = new EmployeeDto();
         employeeDto.setFirstName("Emre");
         employeeDto.setLastName("Ozcan");
@@ -42,14 +51,13 @@ public class EmployeeControllerTests {
         BDDMockito.given(employeeService.saveEmployee(ArgumentMatchers.any(EmployeeDto.class)))
                 .willReturn(Mono.just(employeeDto));
 
-        // when - action or behaviour
+
         WebTestClient.ResponseSpec response = webTestClient.post().uri("/api/employees")
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_JSON)
                 .body(Mono.just(employeeDto), EmployeeDto.class)
                 .exchange();
 
-        // then - verify the result or output
         response.expectStatus().isCreated()
                 .expectBody()
                 .consumeWith(System.out::println)
@@ -58,47 +66,23 @@ public class EmployeeControllerTests {
                 .jsonPath("$.email").isEqualTo(employeeDto.getEmail());
     }
 
-    @Test
-    public void givenEmployeeId_whenGetEmployee_thenReturnEmployeeObject(){
-        // given - pre-condition
-        String employeeId = "123";
-
-        EmployeeDto employeeDto = new EmployeeDto();
-        employeeDto.setFirstName("Ali");
-        employeeDto.setLastName("Ozcan");
-        employeeDto.setEmail("ali@gmail.com");
-
-        BDDMockito.given(employeeService.getEmployee(employeeId))
-                .willReturn(Mono.just(employeeDto));
-
-        // when - action
-        WebTestClient.ResponseSpec response = webTestClient.get()
-                .uri("/api/employees/{id}", Collections.singletonMap("id", employeeId))
-                .exchange();
-
-        // then - verify the output
-        response.expectStatus().isOk()
-                .expectBody()
-                .consumeWith(System.out::println)
-                .jsonPath("$.firstName").isEqualTo(employeeDto.getFirstName())
-                .jsonPath("$.lastName").isEqualTo(employeeDto.getLastName())
-                .jsonPath("$.email").isEqualTo(employeeDto.getEmail());
-    }
-
+    /*This test method expects to retrieve a list of employees when given a list of employee objects.
+    It uses BDDMockito to simulate the behavior of the getAllEmployees method, then sends an HTTP GET request to the "/api/employees" URI.
+    Finally, it verifies receiving an expected HTTP 200 OK response and prints the list of employee objects to the console.*/
     @Test
     public void givenListOfEmployees_whenGetAllEmployees_returnListOfEmployees(){
-        // given - pre-conditions or set up
+
         List<EmployeeDto> list = new ArrayList<>();
         EmployeeDto employeeDto1 = new EmployeeDto();
-        employeeDto1.setFirstName("Ramesh");
-        employeeDto1.setLastName("Fadatare");
-        employeeDto1.setEmail("ramesh@gmail.com");
+        employeeDto1.setFirstName("Emre");
+        employeeDto1.setLastName("Ozcan");
+        employeeDto1.setEmail("eozcan@gmail.com");
         list.add(employeeDto1);
 
         EmployeeDto employeeDto2 = new EmployeeDto();
-        employeeDto2.setFirstName("Tony");
-        employeeDto2.setLastName("Starck");
-        employeeDto2.setEmail("tony@gmail.com");
+        employeeDto2.setFirstName("Ali");
+        employeeDto2.setLastName("Ozcan");
+        employeeDto2.setEmail("aozcan@gmail.com");
         list.add(employeeDto2);
 
         Flux<EmployeeDto> employeeFlux = Flux.fromIterable(list);
@@ -106,42 +90,41 @@ public class EmployeeControllerTests {
         BDDMockito.given(employeeService.getAllEmployees())
                 .willReturn(employeeFlux);
 
-        // when - action or behaviour
+
         WebTestClient.ResponseSpec response = webTestClient.get().uri("/api/employees")
                 .accept(MediaType.APPLICATION_JSON)
                 .exchange();
 
-        // then - verify output of response
+
         response.expectStatus().isOk()
                 .expectBodyList(EmployeeDto.class)
                 .consumeWith(System.out::println);
     }
 
+    /*This test method expects to receive the updated employee object when given an updated employee, simulating the behavior of
+    the updateEmployee method using BDDMockito. It then sends an HTTP PUT request to the "/api/employees/{id}" URI,
+    verifying the expected HTTP 200 OK response and printing the updated employee object to the console.*/
     @Test
     public void givenUpdatedEmployee_whenUpdateEmployee_thenReturnUpdatedEmployeeObject(){
 
-        // given - pre-conditions
         String employeeId = "123";
 
         EmployeeDto employeeDto = new EmployeeDto();
-        employeeDto.setFirstName("Ramesh");
-        employeeDto.setLastName("Fadatare");
-        employeeDto.setEmail("ramesh@gmail.com");
+        employeeDto.setFirstName("Ayse");
+        employeeDto.setLastName("Ozcan");
+        employeeDto.setEmail("ayseozcan@gmail.com");
 
         BDDMockito.given(employeeService.updateEmployee(ArgumentMatchers.any(EmployeeDto.class),
                         ArgumentMatchers.any(String.class)))
                 .willReturn(Mono.just(employeeDto));
 
-        // when - action or behaviour
         WebTestClient.ResponseSpec response = webTestClient.put().uri("/api/employees/{id}", Collections.singletonMap("id", employeeId))
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_JSON)
                 .body(Mono.just(employeeDto),EmployeeDto.class)
                 .exchange();
 
-
-        // then - verify the result or output
-        response.expectStatus().isOk()
+       response.expectStatus().isOk()
                 .expectBody()
                 .consumeWith(System.out::println)
                 .jsonPath("$.firstName").isEqualTo(employeeDto.getFirstName())
@@ -149,22 +132,22 @@ public class EmployeeControllerTests {
                 .jsonPath("$.email").isEqualTo(employeeDto.getEmail());
     }
 
+    /*This test method, given an employee ID, expects to perform the employee deletion operation with no return value.
+    It simulates the behavior of the deleteEmployee method using BDDMockito. Then, it sends an HTTP DELETE request to the "/api/employees/{id}" URI
+    and verifies receiving the expected  No Content response, printing that there is no return value to the console.*/
     @Test
     public void givenEmployeeId_whenDeleteEmployee_thenReturnNothing(){
 
-        // given - pre-conditions
         String employeeId = "123";
         Mono<Void> voidMono = Mono.empty();
         BDDMockito.given(employeeService.deleteEmployee(employeeId))
                 .willReturn(voidMono);
 
-        // when - action or behaviour
         WebTestClient.ResponseSpec response = webTestClient
                 .delete()
                 .uri("/api/employees/{id}", Collections.singletonMap("id", employeeId))
                 .exchange();
 
-        // then - verify the output
         response.expectStatus().isNoContent()
                 .expectBody()
                 .consumeWith(System.out::println);

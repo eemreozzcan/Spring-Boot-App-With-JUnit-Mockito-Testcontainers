@@ -8,10 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/*
-A Simple Spring Controller Class That Performs The Operations Of Creating And Retrieving Student Records İn A RESTful API
- */
-
+/*A Simple Spring Controller Class That Performs The Operations Of Creating And Retrieving Student Records İn A RESTful API*/
 @RestController
 @RequestMapping("/api/students")
 public class StudentController
