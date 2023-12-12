@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2db9ef54-4073-4f27-8c3a-53be479eddd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/java/com/eemrezcn/example/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTestContainers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTestContainers/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/java/com/eemrezcn/education/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTesting/SpringBootTesting/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

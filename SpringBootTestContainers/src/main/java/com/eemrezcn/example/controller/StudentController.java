@@ -8,14 +8,23 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/*
+A Simple Spring Controller Class That Performs The Operations Of Creating And Retrieving Student Records İn A RESTful API
+ */
+
 @RestController
 @RequestMapping("/api/students")
 public class StudentController
 {
+
+    /*The purpose of this code is to inject an instance of the StudentRepository class into a private field named studentRepository.
+     This injection allows other methods within this class to perform database operations using this repository.*/
     @Autowired
     private StudentRepository studentRepository;
 
 
+    /*The Purpose Of The Method Is To Save The Incoming Student Information To The Database Upon Receiving An Http Post
+    Request And Return The Created Student Object As An Http Response*/
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Student createStudent(Student student)
@@ -23,6 +32,8 @@ public class StudentController
         return studentRepository.save(student);
     }
 
+    /*The General Purpose Of This Method Is To Fetch All Student Records From The Database Upon Receiving An Http
+    Get Request And Return These Records As A List In The Http Response.*/
     @GetMapping
     public List<Student> getAllStudents()
     {
